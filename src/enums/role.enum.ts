@@ -1,0 +1,16 @@
+export enum AccessModules {
+  ROLE_CREATE = "role:create",
+  ROLE_READ = "role:read",
+  ROLE_UPDATE = "role:update",
+  ROLE_DELETE = "role:delete",
+  ROLE_LIST = "role:list",
+  ROLE_UPDATE_ACCESS_MODULE = "role:update-access-modules",
+  USER_CREATE = "user:create",
+  USER_READ = "user:read",
+  USER_UPDATE = "user:update",
+  USER_DELETE = "user:delete",
+  USER_LIST = "user:list",
+  USER_BULK_UPDATE_SAME = "user:bulk-update:same",
+  USER_BULK_UPDATE_PER_USER = "user:bulk-update:per-user",
+  ACCESS_CHECK = "access:check",
+}
